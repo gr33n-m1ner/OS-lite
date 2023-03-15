@@ -1,0 +1,12 @@
+#!/bin/bash
+
+home_dir=$HOME
+curr_dir=$(pwd)
+if [[ $curr_dir == $home_dir ]]
+then
+	echo $HOME
+	exit 0
+else
+	echo "Not a home directory"
+	exit 1
+fi
