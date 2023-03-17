@@ -1,0 +1,10 @@
+#!/bin/bash/
+touch full.log
+for file in /var/log/anaconda/*.log
+do
+	warnings="$warnings$(grep "WARNING" "$file" | sed 's/WARNING/Warning:/g')"
+	info="$info$(grep "INFO" "$file" | sed 's/INFO/Information:/g')"
+done
+echo "$warnings$info" > full.log
+cat full.log
+
