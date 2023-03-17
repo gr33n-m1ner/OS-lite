@@ -1,0 +1,30 @@
+#!/bin/bash
+sum=0
+last_ppid=-1
+count=0
+while read line
+do
+	ppid=$(echo "$line" | cut -d: -f2 | cut -d= -f2)
+	art=$(echo "$line" | cut -d: -f3 | cut -d= -f2)
+	if [[ "$last_ppid" != "$ppid" ]]
+	then
+		if [[ "$last_ppid" != "-1" ]]
+		then
+			answer=$(echo "$sum/$count" | bc -l)
+			echo "Average_Running_Children_Of_ParentID=$last_ppid is $answer"
+		fi
+		sum=$art
+		count=1
+	else
+		sum=$(echo "$sum+$art" | bc -l)
+		count=$(( count + 1 ))
+	fi
+	echo "$line"
+	last_ppid=$ppid
+done < "result4.txt" > "result5.txt"
+
+if [[ "$last_ppid" != "-1" ]]
+then
+	answer=$(echo "$sum/$count" | bc -l)
+	echo "Average_Running_Children_Of_ParentID=$last_ppid is $answer" >> "result5.txt"
+fi

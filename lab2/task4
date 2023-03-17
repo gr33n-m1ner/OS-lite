@@ -1,0 +1,17 @@
+#!/bin/bash
+
+> result4.txt
+for pid in $(ps -ex -o pid=)
+do
+	if ! [[ -d "/proc/$pid/" ]]
+	then
+		continue
+	fi
+	ppid=$(grep -s "PPid" /proc/$pid/status | awk '{print $2}')
+	sum_exec_runtime=$(grep -s "sum_exec_runtime" /proc/$pid/sched | awk '{print $3}')
+	nr_switches=$(grep -s "nr_switches" /proc/$pid/sched | awk '{print $3}')
+	art=$(echo "$sum_exec_runtime/$nr_switches" | bc -l)
+	result="$result$pid $ppid $art"$'\n'
+done
+result=$(echo "$result" | sed 's/.$//')
+sort -n -k2 <<< $result | awk '{print "ProcessID=" $1 " : " "Parent_ProcessID=" $2 " : " "Average_Running_Time=" $3 }' >> result4.txt

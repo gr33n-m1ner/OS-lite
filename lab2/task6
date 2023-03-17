@@ -1,0 +1,12 @@
+#!/bin/bash
+for pid in $(ps -eo pid=)
+do
+	if [[ ! -d "/proc/$pid/" ]]
+	then
+		continue
+	fi
+	vmrss=$(grep -s "VmRSS:" /proc/$pid/status | awk '{print $2}')
+	echo "$pid $vmrss"
+done | sort -k2 -n | tail -1 | awk '{print "PID: " $1 " Memory usage: " $2}'
+echo "Top value: "
+top -b -n1 -o RES | head -n 8 | tail -n 1 |  awk '{print "PID: "$1" Memory usage: "$6}'

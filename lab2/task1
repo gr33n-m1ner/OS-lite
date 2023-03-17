@@ -1,0 +1,6 @@
+#!/bin/bash
+user=$USER
+process=$(ps -u $user -o pid,command)
+count=$(ps -u $user -o pid= | wc -l)
+echo "$count"$'\n'$"$process" > result1.txt
+echo "$count"$'\n'$"$process"

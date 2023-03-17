@@ -1,0 +1,11 @@
+#!/bin/bash
+
+> result2.txt
+processes=`ps -eo pid=,cmd=`
+while read -r line
+do
+	if [[ $(echo $line | awk '{print $2}') == /sbin/* ]]
+	then
+		echo $(echo $line | awk '{print $1}') >> result2.txt
+	fi
+done <<< "$processes"
