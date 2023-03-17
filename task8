@@ -1,4 +1,0 @@
-#!/bin/bash
-users=$(cat /etc/passwd | sort -t ':' -k 3 -n)
-echo "$users" | cut -d ':' -f1,3
-

@@ -1,5 +1,0 @@
-#!/bin/bash
-
-text=$(man bash | tr -d '[:punct:]')
-words=$(echo $text | tr ' ' '\n' | grep -E '\w{4,}' | sort | uniq -c)
-echo "$words" | sort -rn | head -n 3 | awk '{print $2}'
