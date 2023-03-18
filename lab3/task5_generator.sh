@@ -6,8 +6,4 @@ while true; do
 	then
 		exit
 	fi
-	if ! [[ "$line" =~ ^-?[0-9]+$ ]] && ! [[ "$line" == "+" ]] && ! [[ "$line" == "*" ]]
-	then
-		exit
-	fi
 done

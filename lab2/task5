@@ -2,6 +2,10 @@
 sum=0
 last_ppid=-1
 count=0
+if ! [[ -f "result4.txt" ]]
+then
+  	bash task4
+fi
 while read line
 do
 	ppid=$(echo "$line" | cut -d: -f2 | cut -d= -f2)

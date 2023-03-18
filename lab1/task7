@@ -1,3 +1,4 @@
 #!/bin/bash
 
-grep -hRiEo "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b" /etc > emails.lst
+grep -hRiEoa "\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b" /etc | sort -u | paste -sd ',' >> emails.lst
+
