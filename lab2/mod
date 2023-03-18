@@ -1,0 +1,10 @@
+#!/bin/bash
+
+users=$(ps -eo user= | sort -u)
+
+for user in $users
+do
+    count=$(ps -U $user -o pid= | wc -l)
+    echo "$user — $count:"
+    ps -U $user -o pid= 
+done
