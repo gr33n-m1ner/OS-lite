@@ -1,0 +1,276 @@
+PID of mem.bash: 4762
+top - 17:42:26 up 18 min,  1 user,  load average: 1,05, 1,91, 1,90
+Tasks: 288 total,   2 running, 286 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 11,9 us,  1,6 sy,  0,0 ni, 85,7 id,  0,0 wa,  0,8 hi,  0,0 si,  0,0 st
+MiB Mem :   3916,4 total,   1755,1 free,   1354,0 used,    807,2 buff/cache
+MiB Swap:   3916,0 total,   2950,2 free,    965,8 used.   2283,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0  252460  32784   3204 R  93,8   0,8   0:00.19 bash
+      1 root      20   0  171984   9860   6344 S   0,0   0,2   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_fl+
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+      8 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+
+
+top - 17:42:28 up 18 min,  1 user,  load average: 1,04, 1,89, 1,89
+Tasks: 288 total,   2 running, 286 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 12,6 us,  0,8 sy,  0,0 ni, 85,0 id,  0,0 wa,  1,6 hi,  0,0 si,  0,0 st
+MiB Mem :   3916,4 total,   1395,6 free,   1712,5 used,    808,3 buff/cache
+MiB Swap:   3916,0 total,   2950,2 free,    965,8 used.   1924,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0  618760 399216   3204 R  93,8  10,0   0:02.35 bash
+      1 root      20   0  171984   9860   6344 S   0,0   0,2   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_fl+
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+      8 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+
+
+top - 17:42:30 up 18 min,  1 user,  load average: 1,04, 1,89, 1,89
+Tasks: 288 total,   2 running, 286 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 11,2 us,  0,8 sy,  0,0 ni, 86,4 id,  0,0 wa,  0,8 hi,  0,8 si,  0,0 st
+MiB Mem :   3916,4 total,   1041,7 free,   2066,2 used,    808,5 buff/cache
+MiB Swap:   3916,0 total,   2950,2 free,    965,8 used.   1571,2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0  980176 760632   3204 R 100,0  19,0   0:04.51 bash
+      1 root      20   0  171984   9860   6344 S   0,0   0,2   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_fl+
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+      8 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+
+
+top - 17:42:32 up 18 min,  1 user,  load average: 1,04, 1,88, 1,89
+Tasks: 288 total,   2 running, 286 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 13,0 us,  0,8 sy,  0,0 ni, 84,7 id,  0,0 wa,  0,8 hi,  0,8 si,  0,0 st
+MiB Mem :   3916,4 total,    681,2 free,   2426,7 used,    808,5 buff/cache
+MiB Swap:   3916,0 total,   2950,2 free,    965,8 used.   1210,7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0 1348852   1,1g   3204 R 100,0  28,2   0:06.68 bash
+   4780 gavrilo+  20   0  224844   3576   3012 R   6,7   0,1   0:00.01 top
+      1 root      20   0  171984   9860   6344 S   0,0   0,2   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_fl+
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+
+top - 17:42:35 up 18 min,  1 user,  load average: 1,04, 1,88, 1,89
+Tasks: 288 total,   2 running, 286 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 12,5 us,  0,8 sy,  0,0 ni, 86,7 id,  0,0 wa,  0,0 hi,  0,0 si,  0,0 st
+MiB Mem :   3916,4 total,    317,9 free,   2789,9 used,    808,6 buff/cache
+MiB Swap:   3916,0 total,   2950,2 free,    965,8 used.    847,5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0 1720036   1,4g   3204 R  93,8  37,4   0:08.84 bash
+      1 root      20   0  171984   9860   6344 S   0,0   0,2   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_fl+
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+      8 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+
+
+top - 17:42:37 up 18 min,  1 user,  load average: 1,04, 1,86, 1,88
+Tasks: 288 total,   3 running, 285 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 12,0 us,  1,6 sy,  0,0 ni, 85,6 id,  0,0 wa,  0,8 hi,  0,0 si,  0,0 st
+MiB Mem :   3916,4 total,    100,8 free,   3129,0 used,    686,6 buff/cache
+MiB Swap:   3916,0 total,   2949,9 free,    966,1 used.    508,3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0 2089504   1,8g   3204 R 100,0  46,6   0:11.01 bash
+   2074 gavrilo+  20   0  431860   1020   1020 S   6,7   0,0   0:05.26 VBoxCli+
+      1 root      20   0  171984   9860   6344 S   0,0   0,2   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_fl+
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+
+top - 17:42:39 up 18 min,  1 user,  load average: 1,04, 1,86, 1,88
+Tasks: 288 total,   3 running, 285 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 11,9 us, 17,5 sy,  0,0 ni, 56,3 id, 11,9 wa,  2,4 hi,  0,0 si,  0,0 st
+MiB Mem :   3916,4 total,    108,9 free,   3474,1 used,    333,4 buff/cache
+MiB Swap:   3916,0 total,   2943,4 free,    972,6 used.    157,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0 2457124   2,1g   2720 R  93,8  55,8   0:13.21 bash
+     78 root      20   0       0      0      0 R  62,5   0,0   1:11.63 kswapd0
+   2657 root      20   0       0      0      0 I  18,8   0,0   0:01.45 kworker+
+   4713 root      20   0       0      0      0 I  18,8   0,0   0:00.05 kworker+
+    850 root      20   0       0      0      0 I  12,5   0,0   0:01.53 kworker+
+   3000 gavrilo+  20   0 3154624 101768  38844 D  12,5   2,5   0:13.88 firefox
+   4712 root      20   0       0      0      0 I  12,5   0,0   0:00.03 kworker+
+   3298 gavrilo+  20   0 2751752  37652  13724 D   6,2   0,9   0:05.10 Isolate+
+
+top - 17:42:41 up 18 min,  1 user,  load average: 1,11, 1,87, 1,88
+Tasks: 289 total,   3 running, 286 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 12,5 us,  3,9 sy,  0,0 ni, 78,9 id,  3,1 wa,  0,8 hi,  0,8 si,  0,0 st
+MiB Mem :   3916,4 total,     99,1 free,   3523,7 used,    293,5 buff/cache
+MiB Swap:   3916,0 total,   2675,9 free,   1240,1 used.    116,0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0 2736568   2,1g   2544 R  93,3  56,2   0:15.35 bash
+     78 root      20   0       0      0      0 R   6,7   0,0   1:12.59 kswapd0
+   4711 root      20   0       0      0      0 I   6,7   0,0   0:00.02 kworker+
+   4799 root      20   0       0      0      0 I   6,7   0,0   0:00.01 kworker+
+      1 root      20   0  171984   6652   3164 S   0,0   0,2   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+
+top - 17:42:43 up 18 min,  1 user,  load average: 1,11, 1,87, 1,88
+Tasks: 289 total,   2 running, 287 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 12,3 us,  0,8 sy,  0,0 ni, 85,4 id,  0,0 wa,  0,8 hi,  0,8 si,  0,0 st
+MiB Mem :   3916,4 total,    111,1 free,   3554,6 used,    250,7 buff/cache
+MiB Swap:   3916,0 total,   2368,7 free,   1547,3 used.     94,2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0 2995948   2,1g   2524 R 100,0  56,0   0:17.38 bash
+      1 root      20   0  171984   6300   2984 S   0,0   0,2   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_fl+
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+      8 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+
+
+top - 17:42:46 up 18 min,  1 user,  load average: 1,11, 1,87, 1,88
+Tasks: 290 total,   3 running, 287 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 10,9 us,  7,8 sy,  0,0 ni, 79,8 id,  0,0 wa,  1,6 hi,  0,0 si,  0,0 st
+MiB Mem :   3916,4 total,    100,6 free,   3581,5 used,    234,3 buff/cache
+MiB Swap:   3916,0 total,   2049,6 free,   1866,4 used.     76,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0 3260080   2,1g   2520 R  87,5  55,5   0:19.45 bash
+     78 root      20   0       0      0      0 R  43,8   0,0   1:14.51 kswapd0
+     60 root      20   0       0      0      0 I   6,2   0,0   0:01.99 kworker+
+   4812 gavrilo+  20   0  224844   3620   3052 R   6,2   0,1   0:00.01 top
+      1 root      20   0  171984   5820   2880 S   0,0   0,1   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+
+top - 17:42:48 up 18 min,  1 user,  load average: 1,18, 1,87, 1,88
+Tasks: 290 total,   2 running, 288 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 11,7 us,  7,8 sy,  0,0 ni, 77,3 id,  0,0 wa,  2,3 hi,  0,8 si,  0,0 st
+MiB Mem :   3916,4 total,    112,2 free,   3591,1 used,    213,1 buff/cache
+MiB Swap:   3916,0 total,   1723,8 free,   2192,2 used.     77,4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0 3517084   2,1g   2520 R  87,5  54,5   0:21.49 bash
+     78 root      20   0       0      0      0 S  56,2   0,0   1:15.52 kswapd0
+      1 root      20   0  171984   5496   2844 S   0,0   0,1   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_fl+
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+
+top - 17:42:50 up 18 min,  1 user,  load average: 1,18, 1,87, 1,88
+Tasks: 290 total,   3 running, 287 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 11,6 us,  6,2 sy,  0,0 ni, 79,8 id,  0,8 wa,  1,6 hi,  0,0 si,  0,0 st
+MiB Mem :   3916,4 total,     98,1 free,   3594,6 used,    223,8 buff/cache
+MiB Swap:   3916,0 total,   1391,7 free,   2524,3 used.     68,8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0 3768676   2,0g   2520 R  87,5  53,0   0:23.53 bash
+     78 root      20   0       0      0      0 R  37,5   0,0   1:16.57 kswapd0
+   4822 gavrilo+  20   0  224844   3612   3040 R   6,2   0,1   0:00.01 top
+      1 root      20   0  171984   5292   2844 S   0,0   0,1   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_fl+
+
+top - 17:42:52 up 18 min,  1 user,  load average: 1,25, 1,87, 1,88
+Tasks: 290 total,   2 running, 288 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 11,1 us, 12,7 sy,  0,0 ni, 73,0 id,  0,0 wa,  2,4 hi,  0,8 si,  0,0 st
+MiB Mem :   3916,4 total,    126,5 free,   3604,1 used,    185,8 buff/cache
+MiB Swap:   3916,0 total,   1059,2 free,   2856,7 used.     78,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     78 root      20   0       0      0      0 S 100,0   0,0   1:17.62 kswapd0
+   4762 gavrilo+  20   0 4022512   2,0g   2456 R  86,7  51,6   0:25.58 bash
+      1 root      20   0  171984   4976   2792 S   0,0   0,1   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_fl+
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+
+top - 17:42:54 up 18 min,  1 user,  load average: 1,25, 1,87, 1,88
+Tasks: 290 total,   3 running, 287 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 11,7 us,  5,5 sy,  0,0 ni, 82,0 id,  0,0 wa,  0,8 hi,  0,0 si,  0,0 st
+MiB Mem :   3916,4 total,    112,7 free,   3637,1 used,    166,6 buff/cache
+MiB Swap:   3916,0 total,    750,4 free,   3165,6 used.     55,5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0 4285192   2,0g   2416 R 100,0  51,3   0:27.63 bash
+     78 root      20   0       0      0      0 R  33,3   0,0   1:18.60 kswapd0
+      1 root      20   0  171984   4492   2736 S   0,0   0,1   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_fl+
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+
+top - 17:42:57 up 18 min,  1 user,  load average: 1,23, 1,86, 1,88
+Tasks: 290 total,   2 running, 288 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  8,7 us, 13,4 sy,  0,0 ni, 73,2 id,  0,8 wa,  3,9 hi,  0,0 si,  0,0 st
+MiB Mem :   3916,4 total,    131,0 free,   3629,2 used,    156,2 buff/cache
+MiB Swap:   3916,0 total,    394,3 free,   3521,7 used.     68,9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+     78 root      20   0       0      0      0 S 100,0   0,0   1:19.79 kswapd0
+   4762 gavrilo+  20   0 4553020   2,0g   2172 R  68,8  51,1   0:29.75 bash
+      1 root      20   0  171984   3660   2684 S   0,0   0,1   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 slub_fl+
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 netns
+
+top - 17:42:59 up 18 min,  1 user,  load average: 1,23, 1,86, 1,88
+Tasks: 290 total,   3 running, 287 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 12,1 us,  6,8 sy,  0,0 ni, 78,0 id,  0,8 wa,  1,5 hi,  0,8 si,  0,0 st
+MiB Mem :   3916,4 total,    102,8 free,   3612,9 used,    200,7 buff/cache
+MiB Swap:   3916,0 total,     48,5 free,   3867,5 used.     63,6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   4762 gavrilo+  20   0 4792996   1,9g   2168 R 100,0  48,7   0:31.82 bash
+     78 root      20   0       0      0      0 R  33,3   0,0   1:20.94 kswapd0
+   3000 gavrilo+  20   0 3154624  40924  20636 S  13,3   1,0   0:14.08 firefox
+   4842 gavrilo+  20   0  224844   3748   3184 R   6,7   0,1   0:00.01 top
+      1 root      20   0  171984   3520   2676 S   0,0   0,1   0:04.26 systemd
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd
+      3 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_gp
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 rcu_par+
+
+top - 17:43:09 up 18 min,  1 user,  load average: 3,41, 2,31, 2,03
+Tasks: 292 total,   7 running, 285 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  1,6 us, 34,1 sy,  0,0 ni, 34,9 id, 27,1 wa,  1,6 hi,  0,8 si,  0,0 st
+MiB Mem :   3916,4 total,    931,0 free,   2675,3 used,    310,1 buff/cache
+MiB Swap:   3916,0 total,   2575,6 free,   1340,4 used.    973,1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1861 gavrilo+  20   0  528000   4732   4472 S  93,8   0,1   0:01.70 gvfs-af+
+   4762 gavrilo+  20   0       0      0      0 R  87,5   0,0   0:33.40 bash
+   4712 root      20   0       0      0      0 R  18,8   0,0   0:00.44 kworker+
+    850 root      20   0       0      0      0 R  12,5   0,0   0:01.88 kworker+
+   2657 root      20   0       0      0      0 I  12,5   0,0   0:01.65 kworker+
+   3000 gavrilo+  20   0 3154624  39860  21180 S  12,5   1,0   0:14.35 firefox
+   4711 root      20   0       0      0      0 R  12,5   0,0   0:00.37 kworker+
+     11 root      20   0       0      0      0 I   6,2   0,0   0:02.77 kworker+
+
+[ 1132.211932] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/app.slice/app-org.gnome.Terminal.slice/vte-spawn-6f0f0dc2-3203-43a3-b76f-4238f8804746.scope,task=bash,pid=4762,uid=1000
+[ 1132.211948] Out of memory: Killed process 4762 (bash) total-vm:4959976kB, anon-rss:2072156kB, file-rss:1488kB, shmem-rss:0kB, UID:1000 pgtables:9332kB oom_score_adj:200
+60000000
